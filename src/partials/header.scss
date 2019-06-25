@@ -1,0 +1,55 @@
+header {
+  display: flex;
+
+  .logo {
+    width: 300px;
+    height: 200px;
+    background: url('../images/logo.png')no-repeat;
+    background-size: cover;
+  }
+
+  .face_logo {
+
+  }
+
+  span {
+    position: relative;
+    width: 150px;
+    height: 45px;
+    text-align: right;
+    padding: 10px;
+    padding-right: 17px;
+    margin: 70px 0 0 100px;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 3px solid #29ce00;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: 20px;
+      width: 25px;
+      height: 25px;
+      background: url('../images/face.png')no-repeat;
+      background-size: cover;
+      animation: rotation 2s infinite linear;
+    }
+
+    @keyframes rotation {
+      from {
+          -webkit-transform: rotate(0deg);
+      }
+      to {
+          -webkit-transform: rotate(359deg);
+      }
+    }
+
+  }
+}
