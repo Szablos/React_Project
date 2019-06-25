@@ -1,0 +1,73 @@
+{
+  "reciepts": {
+
+    "appetizers": [
+        {
+          "id": 1,
+          "name": "Foie gras",
+          "ingredients": "Foie gras, grzanka czosnkowa, cebulki confi, mus porzeczkowy.",
+          "price": 30
+        },
+        {
+          "id": 2,
+          "name": "Marchewki Królika Bugsa",
+          "ingredients": "Konfitowane młode marchewki, emulsja parmezanowa, czarnuszka, grzanka z palonym masłem.",
+          "price": 24
+        }
+    ],
+    "soups": [
+      {
+        "id": 3,
+        "name": "Ni z gruszki, ni z pietruszki",
+        "ingredients": "Krem z gruszki i pietruszki.",
+        "price": 16
+      },
+      {
+        "id": 4,
+        "name": "Consomme z kaczki",
+        "ingredients": "Bogaty wywar z kaczki z dodatkiem imbiru, włoszczyzny, pędów bambusa oraz uszka z szyjkami rakowymi.",
+        "price": 18
+      }
+    ],
+    "mainDish": [
+      {
+        "id": 5,
+        "name": "Zbastowana Cykoria",
+        "ingredients": "Cykoria bastowana masłem, polędwiczka wieprzowa sous vide, kawior agrestowy, pure pietruszkowe.",
+        "price": 43
+      },
+      {
+        "id": 6,
+        "name": "Kurczak supreme",
+        "ingredients": "Pierś z kurczaka z kością sous vide, podwędzane dymem jabłkowym, pure z brokuła oraz marchewki baby.",
+        "price": 38
+      },
+      {
+        "id": 7,
+        "name": "Stek Tomahawk",
+        "ingredients": "Stek tomahawk, młode ziemniaki konfitowane w tłuszczu gęsim oraz młody groszek.",
+        "price": 120
+      },
+      {
+        "id": 8,
+        "name": "Pstrąg tęczowy z trawami polskimi",
+        "ingredients": "Pstrąg tęczowy podany z liśćmi mniszka pospolitego, chrzanu oraz kwiatami rózy z dodatkiem emulsji maślanej i kawiorem z jesiotra.",
+        "price": 59
+      }
+    ],
+    "deser": [
+      {
+        "id": 9,
+        "name": "Panna Cotta cytrynowa",
+        "ingredients": "Panna cotta cytrynowa wraz z gałką lodów waniliowych i spaghetti brzoskwiniowym.",
+        "price": 22
+      },
+      {
+        "id": 10,
+        "name": "Kogel mogel",
+        "ingredients": "Kogel mogel wraz z owocami leśnymi i pianką z advocatu.",
+        "price": 20
+      }
+    ]
+  }
+}
